@@ -2,10 +2,9 @@ def badge_maker(name)
     return "Hello, my name is #{name}."
 end
 
-def batch_badge_creator(names)
-  name = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
-  name.each do |names|
-  puts "Hello, my name is #{names}."
+def batch_badge_creator(speakers)
+  speakers.collect do |names|
+    badge_maker(name)
 end
 
 def assign_rooms(names)
@@ -15,3 +14,5 @@ def assign_rooms(names)
   puts "Hello, #{name}! You'll be assigned to room #{room}"
   room += 1
 end
+
+def printer(names)
