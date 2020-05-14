@@ -1,4 +1,8 @@
-def badge_maker (speakers)
+
+
+
+
+def batch_badge_creator(speakers)
 name = ["Edsger", "Ada", "Charles", "Alan", "Grace", "Linus", "Matz"]
 room = 1
 name.each do |name|
