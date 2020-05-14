@@ -7,5 +7,3 @@ def batch_badge_creator(names)
   name.each do |names|
   puts "Hello, my name is #{names}."
 end
-
-
