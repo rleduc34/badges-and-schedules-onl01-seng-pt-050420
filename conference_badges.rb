@@ -5,6 +5,7 @@ end
 def batch_badge_creator(speakers)
   speakers.collect do |names|
     badge_maker(name)
+  end
 end
 
 def assign_rooms(speakers)
