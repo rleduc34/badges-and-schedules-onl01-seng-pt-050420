@@ -12,6 +12,6 @@ def assign_rooms(speakers)
   room = 0
   speakers.collect do |names|
   room += 1
-    "Hello, #{names}! You'll be assigned to room #{room}"
+    "Hello, #{names}! You'll be assigned to room #{room}!"
   end
 end
